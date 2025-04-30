@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
               <Cpu className="h-6 w-6 text-primary" />
-              <span className="font-bold text-xl">Ashutosh Maurya</span>
+              <span className="font-bold text-xl">Avinash Kumar</span>
             </Link>
             <p className="text-sm text-muted-foreground">
               Fullstack Developer specializing in Java, DSA, and modern web technologies.
@@ -48,7 +48,7 @@ export default function Footer() {
             <h3 className="font-medium text-lg">Connect</h3>
             <nav className="flex flex-col space-y-2">
               <Link
-                href="https://github.com/akmroyal"
+                href="https://github.com/Avinash415"
                 className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 group"
                 target="_black"
               >
@@ -56,7 +56,7 @@ export default function Footer() {
                 GitHub
               </Link>
               <Link
-                href="https://www.linkedin.com/in/ashu-maurya-9026xxxx/"
+                href="http://www.linkedin.com/in/avinash-kumar-b14a46193"
                 className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 group"
                 target="_blank"
               >
@@ -64,7 +64,7 @@ export default function Footer() {
                 LinkedIn
               </Link>
               <Link
-                href="https://x.com/akm_royal"
+                href="https://x.com/TTarget5"
                 className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 group"
                 target="_blank"
               >
@@ -72,7 +72,7 @@ export default function Footer() {
                 Twitter
               </Link>
               <Link
-                href="mailto: ashutosh.maurya2285@gmail.com"
+                href="mailto: avinash843117kumar@gmail.com"
                 className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 group"
                 target="_blank"
               >
@@ -91,7 +91,7 @@ export default function Footer() {
               transition={{ delay: 0.2 }}
               className="text-center"
             >
-              <div className="text-3xl font-bold text-primary mb-1">3+</div>
+              <div className="text-3xl font-bold text-primary mb-1">1+</div>
               <div className="text-sm text-muted-foreground">Years Experience</div>
             </motion.div>
             <motion.div
@@ -100,7 +100,7 @@ export default function Footer() {
               transition={{ delay: 0.4 }}
               className="text-center"
             >
-              <div className="text-3xl font-bold text-primary mb-1">9+</div>
+              <div className="text-3xl font-bold text-primary mb-1">5+</div>
               <div className="text-sm text-muted-foreground">Projects Completed</div>
             </motion.div>
             <motion.div
@@ -118,7 +118,7 @@ export default function Footer() {
               transition={{ delay: 0.8 }}
               className="text-center"
             >
-              <div className="text-3xl font-bold text-primary mb-1">300+</div>
+              <div className="text-3xl font-bold text-primary mb-1">500+</div>
               <div className="text-sm text-muted-foreground">Coding Challenges</div>
             </motion.div>
           </div>
@@ -126,11 +126,11 @@ export default function Footer() {
 
         <div className="mt-10 border-t pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Ashutosh Maurya. All rights reserved.
+            &copy; {new Date().getFullYear()} Avinash Kumar. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Button variant="outline" size="sm" asChild className="group">
-              <Link href="https://drive.google.com/file/d/1g-HFdWDeUtshGh_tnRn5bcGzPBX5MlEv/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1PoZnxCKBNVQOMy968PfBu5uz6Z3YS_vl/view?usp=sharing">
                 <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
                 Download CV
               </Link>

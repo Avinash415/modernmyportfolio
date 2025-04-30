@@ -37,7 +37,7 @@ export default function AboutSection() {
             >
               <div className="relative">
                 <Image
-                  src="/profilImg.png"
+                  src="/profilImg1.jpg"
                   alt="About me"
                   width={600}
                   height={600}
@@ -72,7 +72,7 @@ export default function AboutSection() {
 
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Hello! I'm Ashutosh Maurya, a passionate Fullstack Developer with expertise in Java programming and advanced Data
+                Hello! I'm Avinash Kumar, a passionate Fullstack Developer with expertise in Java programming and advanced Data
                 Structures & Algorithms. My journey in software development started with C/C++ and has evolved to
                 encompass modern web technologies.
               </p>
@@ -97,7 +97,7 @@ export default function AboutSection() {
 
               <div>
                 <h3 className="font-medium text-lg">Experience</h3>
-                <p className="text-muted-foreground">2+ Yr(Relevant Experience)</p>
+                <p className="text-muted-foreground">1+ Yr(Relevant Experience)</p>
               </div>
 
               <div>

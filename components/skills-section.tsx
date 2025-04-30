@@ -28,28 +28,23 @@ export default function SkillsSection() {
     {
       category: "Backend Development",
       icon: <Server className="h-8 w-8 text-primary" />,
-      items: ["Node.js", "Express.js", "RESTful APIs",],
+      items: ["Node.js", "Express.js", "Spring Boot", "RESTful APIs", "MicroServices"],
     },
     {
       category: "Database",
       icon: <Database className="h-8 w-8 text-primary" />,
-      items: ["MySQL", "MongoDB"],
+      items: ["MySQL", "PostgreSQL", "MongoDB", "Database Design"],
     },
     {
       category: "DevOps & Tools",
       icon: <GitBranch className="h-8 w-8 text-primary" />,
-      items: ["Git", "Docker (Basic)", "AWS(Basic)",],
+      items: ["Git", "CI/CD", "Docker (Basic)", "AWS(Basic)", "Linux", "Agile Methodologies"],
     },
     {
       category: "Architecture",
       icon: <Layers className="h-8 w-8 text-primary" />,
       items: ["System Design", "Operating System", "Object Oriented Programming"],
     },
-    // {
-    //   category: "Mobile Development",
-    //   icon: <Smartphone className="h-8 w-8 text-primary" />,
-    //   items: ["React Native", "Android (Java)", "Responsive Web Apps"],
-    // },
   ]
 
   const containerVariants = {

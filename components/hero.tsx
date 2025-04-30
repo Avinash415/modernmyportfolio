@@ -45,7 +45,7 @@ export default function Hero() {
             transition={{ delay: 0.6, duration: 0.8 }}
           >
             <Button asChild size="lg" className="group">
-              <Link href="https://drive.google.com/file/d/1g-HFdWDeUtshGh_tnRn5bcGzPBX5MlEv/view?usp=sharing" target="_blank">
+              <Link href="https://drive.google.com/file/d/1PoZnxCKBNVQOMy968PfBu5uz6Z3YS_vl/view?usp=sharing" target="_blank">
                 <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
                 Download CV
               </Link>

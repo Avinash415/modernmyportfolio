@@ -38,41 +38,41 @@ export default function ProfileContent() {
     social: [
       {
         title: "GitHub",
-        url: "https://github.com/akmroyal",
+        url: "https://github.com/Avinash415",
         icon: <Github className="h-6 w-6" />,
       },
       {
         title: "LinkedIn",
-        url: "https://www.linkedin.com/in/ashu-maurya-9026xxxx/",
+        url: "http://www.linkedin.com/in/avinash-kumar-b14a46193",
         icon: <Linkedin className="h-6 w-6" />,
       },
       {
         title: "Twitter",
-        url: "https://x.com/akm_royals",
+        url: "https://x.com/TTarget5",
         icon: <Twitter className="h-6 w-6" />,
       },
-      // {
-      //   title: "Portfolio",
-      //   url: "https://yourportfolio.com",
-      //   icon: <Globe className="h-6 w-6" />,
-      // },
+      {
+        title: "Portfolio",
+        url: "http://www.linkedin.com/in/avinash-kumar-b14a46193",
+        icon: <Globe className="h-6 w-6" />,
+      },
       {
         title: "Email",
-        url: "mailto:ashutosh.maurya2285@gmail.com",
+        url: "mailto:avinash843117kumar@gmail.com",
         icon: <Mail className="h-6 w-6" />,
       },
     ],
     professional: [
       {
         title: "CV",
-        url: "https://drive.google.com/file/d/1g-HFdWDeUtshGh_tnRn5bcGzPBX5MlEv/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1PoZnxCKBNVQOMy968PfBu5uz6Z3YS_vl/view?usp=sharing",
         icon: <FileText className="h-6 w-6" />,
       },
-      {
-        title: "Certifications",
-        url: "https://www.linkedin.com/in/ashu-maurya-9026xxxx/details/featured/",
-        icon: <Award className="h-6 w-6" />,
-      },
+      // {
+      //   title: "Certifications",
+      //   url: "https://www.linkedin.com/in/ashu-maurya-9026xxxx/details/featured/",
+      //   icon: <Award className="h-6 w-6" />,
+      // },
       // {
       //   title: "Work History",
       //   url: "https://yourportfolio.com/work",
@@ -83,51 +83,41 @@ export default function ProfileContent() {
     coding: [
       {
         title: "LeetCode",
-        url: "https://leetcode.com/u/ashu_maurya/",
+        url: "https://leetcode.com/u/avinash843117kumar/",
         icon: <SiLeetcode className="h-6 w-6" />,
       },
       {
         title: "HackerRank",
-        url: "https://www.hackerrank.com/profile/ashutoshmaxxxx",
+        url: "https://www.hackerrank.com/profile/avinash843117ku1",
         icon: <FaHackerrank className="h-6 w-6" />,
       },
-      {
-        title: "CodeForces",
-        url: "https://codeforces.com/profile/Akm_royal",
-        icon: <SiCodeforces className="h-6 w-6" />,
-      },
+      // {
+      //   title: "CodeForces",
+      //   url: "https://codeforces.com/profile/Akm_royal",
+      //   icon: <SiCodeforces className="h-6 w-6" />,
+      // },
       {
         title: "Coding Chef",
-        url: "https://www.codechef.com/users/akm_royal",
+        url: "https://www.codechef.com/users/avinash843117k",
         icon: <SiCodechef className="h-6 w-6" />,
       },
       {
         title: "CodingNinjas",
-        url: "https://www.naukri.com/code360/profile/ashuMaurya",
+        url: "https://www.naukri.com/code360/profile/6972ffae-c147-4b60-a960-44fe9a569cf9",
         icon: <SiCodingninjas className="h-6 w-6" />,
       },
       {
         title: "GeeksForGeeks",
-        url: "https://www.geeksforgeeks.org/user/ashutosh3m5c/",
+        url: "https://www.geeksforgeeks.org/user/avinash843sy4w/",
         icon: <SiGeeksforgeeks className="h-6 w-6" />,
       },
     ],
     blog: [
-      {
-        title: "Personal Blog",
-        url: "https://akmroyal.blogspot.com/",
-        icon: <FaBlogger className="w-6 h-6" />,
-      },
-      {
-        title: "Medium",
-        url: "https://medium.com/@ashutoshmaxxxx",
-        icon: <FaMedium className="h-6 w-6" />,
-      },
-      {
-        title: "Dev.to",
-        url: "https://dev.to/akmroyal",
-        icon: <FaDev className="w-6 h-6" />,
-      },
+      // {
+      //   title: "Dev.to",
+      //   url: "https://dev.to/akmroyal",
+      //   icon: <FaDev className="w-6 h-6" />,
+      // },
     ],
   }
   const copyToClipboard = (text: string) => {
@@ -154,7 +144,7 @@ export default function ProfileContent() {
           <div className="absolute -inset-2 rounded-full bg-gradient-to-r from-primary to-primary/20 opacity-0 group-hover:opacity-70 blur-md transition-all duration-500" />
           <div className="relative w-48 h-48 md:w-64 md:h-64 overflow-hidden rounded-full border-4 border-primary">
             <Image
-              src="/profilImg.png"
+              src="/profilePic1.png"
               alt="Profile"
               width={400}
               height={400}
@@ -169,7 +159,7 @@ export default function ProfileContent() {
           transition={{ delay: 0.2, duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h1 className="text-3xl font-bold mb-2">Ashutosh Maurya</h1>
+          <h1 className="text-3xl font-bold mb-2">Avinash</h1>
           <p className="text-xl text-muted-foreground mb-4">Fullstack Developer & Java Programmer</p>
           <p className="max-w-2xl text-muted-foreground">
             Passionate about creating elegant solutions to complex problems. Experienced in Java, DSA, and modern web

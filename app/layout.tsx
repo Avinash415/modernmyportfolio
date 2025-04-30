@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <head>
-        <title>Ashu Maurya | Fullstack Developer</title>
+        <title>Avinash Kumar | Fullstack Developer</title>
         <meta name="description" content="Portfolio website of a Fullstack Developer with expertise in Java, DSA, and C/C++" />
         <link rel="icon" href="/favicon.ico" sizes="32x32" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />

@@ -14,7 +14,6 @@ export default function SkillsPageContent() {
       items: [
         { name: "Java", level: 95 },
         { name: "JavaScript", level: 80 },
-        // { name: "TypeScript", level: 85 },
         { name: "C/C++", level: 90 },
         { name: "Python", level: 60 },
       ],
@@ -49,11 +48,10 @@ export default function SkillsPageContent() {
       icon: <Server className="h-8 w-8 text-primary" />,
       items: [
         { name: "Node.js", level: 60 },
-        { name: "Express.js", level: 40 },
-        // { name: "Spring Boot", level: 85 },
+        { name: "Express.js", level: 95 },
+        { name: "Spring Boot", level: 40 },
         { name: "RESTful APIs", level: 35 },
-        // { name: "GraphQL", level: 80 },
-        // { name: "Microservices", level: 85 },
+        { name: "Microservices", level: 85 },
       ],
     },
     {
@@ -61,11 +59,11 @@ export default function SkillsPageContent() {
       icon: <Database className="h-8 w-8 text-primary" />,
       items: [
         { name: "MySQL", level: 90 },
-        // { name: "PostgreSQL", level: 85 },
+        { name: "PostgreSQL", level: 85 },
         { name: "MongoDB", level: 90 },
         // { name: "Redis", level: 80 },
         // { name: "ORM (Hibernate, Sequelize)", level: 85 },
-        // { name: "Database Design", level: 90 },
+        { name: "Database Design", level: 60 },
       ],
     },
     {
@@ -74,10 +72,10 @@ export default function SkillsPageContent() {
       items: [
         { name: "Git", level: 90 },
         { name: "Docker", level: 45 },
-        // { name: "CI/CD", level: 80 },
-        { name: "AWS(Basic)", level: 40 },
+        { name: "CI/CD", level: 80 },
+        { name: "AWS(Basic)", level: 50 },
         { name: "Linux", level: 10 },
-        // { name: "Agile Methodologies", level: 85 },
+        { name: "Agile Methodologies", level: 85 },
       ],
     },
     {
@@ -86,24 +84,12 @@ export default function SkillsPageContent() {
       items: [
         { name: "Operating System", level: 45 },
         { name: "Object Oriented Programming", level: 25 },
-        // { name: "Design Patterns", level: 50 },
+        { name: "Design Patterns", level: 50 },
         { name: "System Design", level: 65 },
         { name: "API Design", level: 30 },
-        // { name: "Scalable Architecture", level: 80 },
+        { name: "Scalable Architecture", level: 80 },
       ],
     },
-    // {
-    //   category: "Mobile Development",
-    //   icon: <Smartphone className="h-8 w-8 text-primary" />,
-    //   items: [
-    //     { name: "React Native", level: 85 },
-    //     { name: "Android (Java)", level: 80 },
-    //     { name: "Responsive Web Apps", level: 95 },
-    //     { name: "Mobile UI/UX", level: 85 },
-    //     { name: "App Performance", level: 80 },
-    //     { name: "Cross-platform Development", level: 85 },
-    //   ],
-    // },
   ]
 
   const containerVariants = {

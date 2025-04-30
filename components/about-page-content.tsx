@@ -32,28 +32,22 @@ export default function AboutPageContent() {
 
   const education = [
     {
-      degree: "12th",
-      institution: "Bapu Inter College, Salempur Deoria (UP)",
-      year: "2020 - 2021",
-      description: "Passed with 75%",
+      degree: "Diploma",
+      institution: "GOVT. Polytechnic Patna -07(Patna)",
+      year: "2019 - 2022",
+      description: "Passed with 77%",
     },
     {
-      degree: "Bachelor of Technology in Computer Science",
-      institution: "Lloyd Institute Of Engineering & Technology, Greater Noida (UP)",
+      degree: "Bachelor of Technology in Computer Science & Engineering",
+      institution: "Rungta college of engineering and technology, Bhilai (Chhattisgarh)",
       year: "2022 - Present",
       // description: "Graduated with honors. Specialized in algorithms and data structures.",
     },
-    // {
-    //   degree: "Master of Science in Software Engineering",
-    //   institution: "Tech Institute",
-    //   year: "2020 - 2022",
-    //   description: "Focused on advanced software architecture and design patterns.",
-    // },
   ]
 
   const experience = [
     {
-      position: "Junior Developer",
+      position: "Web Developer Intern",
       company: "Hackathons / College Projects / Personal Projects",
       year: "2020 - 2021",
       description: "",
@@ -64,19 +58,13 @@ export default function AboutPageContent() {
     //   year: "2021 - 2022",
     //   description: "Worked on scalable backend systems using Java and Spring Boot.",
     // },
-    // {
-    //   position: "Senior Developer",
-    //   company: "Innovation Labs",
-    //   year: "2022 - Present",
-    //   description: "Leading development of microservices architecture and mentoring junior developers.",
-    // },
   ]
 
   // Make awards and certifications clickable
   const certifications = [
     {
       name: "HackerRank Certified JavaScript",
-      link: "https://www.hackerrank.com/certificates/iframe/a0c5f0b5dd2f",
+      link: "#",
       details:
         "Certification for JavaScript programming skills, covering topics like functions, closures, prototypes, and ES6 features.",
     },
@@ -86,12 +74,12 @@ export default function AboutPageContent() {
     //   details:
     //     "Advanced Java programming certification covering OOP concepts, collections, concurrency, and design patterns.",
     // },
-    {
-      name: "HackerRank: Certified Problem Solver (Data Structure and Algo.)",
-      link: "https://www.hackerrank.com/certificates/iframe/2d4d3b9e0cf6",
-      details:
-        "Certification for problem-solving skills using data structures and algorithms, covering topics like arrays, linked lists, trees, and graph algorithms.",
-    },
+    // {
+    //   name: "HackerRank: Certified Problem Solver (Data Structure and Algo.)",
+    //   link: "#",
+    //   details:
+    //     "Certification for problem-solving skills using data structures and algorithms, covering topics like arrays, linked lists, trees, and graph algorithms.",
+    // },
     // {
     //   name: "Google Cloud Professional Developer",
     //   link: "#",
@@ -126,7 +114,7 @@ export default function AboutPageContent() {
           <div className="absolute -inset-4 rounded-lg bg-gradient-to-r from-primary to-primary/20 opacity-30 blur-lg group-hover:opacity-70 transition-opacity duration-500" />
           <div className="relative overflow-hidden rounded-lg border bg-background">
             <Image
-              src="/profilImg.png"
+              src="./profilImg1.jpg"
               alt="About me"
               width={600}
               height={600}
@@ -171,7 +159,7 @@ export default function AboutPageContent() {
               </Link>
             </Button>
             <Button variant="outline" size="lg" asChild>
-              <Link href="https://drive.google.com/file/d/1g-HFdWDeUtshGh_tnRn5bcGzPBX5MlEv/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1PoZnxCKBNVQOMy968PfBu5uz6Z3YS_vl/view?usp=sharing">
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
               </Link>

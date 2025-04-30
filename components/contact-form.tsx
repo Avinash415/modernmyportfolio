@@ -13,8 +13,12 @@ import { Send, RefreshCw, CheckCircle, Mail, Phone, MapPin, Eye } from "lucide-r
 import Link from "next/link"
 import Swal from "sweetalert2"
 import emailjs from "@emailjs/browser"
-
 export default function ContactForm() {
+
+  const EmailJsServiceID=process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+  const EmailJsTemplateID=process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+  const EmailJsPublicKey=process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+  
   const [formState, setFormState] = useState<"idle" | "submitting" | "success" | "error">("idle")
   const [formData, setFormData] = useState({
     name: "",
@@ -36,15 +40,15 @@ export default function ContactForm() {
     // Configure EmailJS with your service ID, template ID, and public key
     emailjs
       .send(
-        "service_rw2cg6l", // Replace with your EmailJS service ID
-        "template_zzluat8", // Replace with your EmailJS template ID
+        EmailJsServiceID as string, // Replace with your EmailJS service ID
+        EmailJsTemplateID as string, // Replace with your EmailJS template ID
         {
           from_name: formData.name,
           from_email: formData.email,
           subject: formData.subject,
           message: formData.message,
         },
-        "amvzvRyWQ_Ao_e3jL", // Replace with your EmailJS public key
+        EmailJsPublicKey as string, // Replace with your EmailJS public key
       )
       .then(() => {
         setFormState("success")
@@ -54,6 +58,7 @@ export default function ContactForm() {
           icon: "success",
           confirmButtonColor: "hsl(var(--primary))",
         })
+
         // Reset form after success
         setTimeout(() => {
           setFormData({
@@ -122,7 +127,7 @@ export default function ContactForm() {
               <Mail className="h-6 w-6 text-primary mt-0.5" />
               <div>
                 <h3 className="font-medium">Email</h3>
-                <p className="text-muted-foreground">ashutosh.maurya2285@gmail.com</p>
+                <p className="text-muted-foreground">avinash843117kumar@gmail.com</p>
               </div>
             </div>
 
@@ -131,7 +136,7 @@ export default function ContactForm() {
               <div>
                 <h3 className="font-medium">WhatsApp</h3>
                 {showContact ? (
-                  <Link href="https://bit.ly/3rkZVcU" className="text-muted-foreground" target="_blank">
+                  <Link href="https://www.linkedin.com/in/avinash-kumar-b14a46193/" className="text-muted-foreground" target="_blank">
                     https://bit.ly/3rkZVcU
                   </Link>
                 ) : (
@@ -292,3 +297,4 @@ export default function ContactForm() {
     </div>
   )
 }
+

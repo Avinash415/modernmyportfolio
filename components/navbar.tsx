@@ -12,7 +12,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const pathname = usePathname()
   const [text, setText] = useState("")
-  const fullText = "Akm_Royal"
+  const fullText = "Avinash"
   const [isTyping, setIsTyping] = useState(true)
 
   useEffect(() => {
@@ -96,7 +96,7 @@ export default function Navbar() {
                 <span className="sr-only">Close menu</span>
               </Button>
             </div>
-            <nav className="container grid gap-6 py-6">
+            <nav className="flex flex-col items-center justify-center gap-6 py-10 h-[calc(100vh-4rem)] bg-muted rounded-md mx-4 mt-4">
               {navItems.map((item) => (
                 <Link
                   key={item.name}
