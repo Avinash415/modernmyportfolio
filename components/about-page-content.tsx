@@ -159,7 +159,7 @@ export default function AboutPageContent() {
               </Link>
             </Button>
             <Button variant="outline" size="lg" asChild>
-              <Link href="https://drive.google.com/file/d/1PoZnxCKBNVQOMy968PfBu5uz6Z3YS_vl/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1qxDWSeZnd7O76jBcqbIuozscwQ7B__jC/view?usp=sharing" target="_blank">
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
               </Link>

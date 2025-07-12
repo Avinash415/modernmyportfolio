@@ -53,7 +53,7 @@ export default function ProfileContent() {
       },
       {
         title: "Portfolio",
-        url: "http://www.linkedin.com/in/avinash-kumar-b14a46193",
+        url: "https://modernmyportfolio.vercel.app/",
         icon: <Globe className="h-6 w-6" />,
       },
       {
@@ -65,7 +65,7 @@ export default function ProfileContent() {
     professional: [
       {
         title: "CV",
-        url: "https://drive.google.com/file/d/1PoZnxCKBNVQOMy968PfBu5uz6Z3YS_vl/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1qxDWSeZnd7O76jBcqbIuozscwQ7B__jC/view?usp=sharing",
         icon: <FileText className="h-6 w-6" />,
       },
       // {
