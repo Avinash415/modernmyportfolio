@@ -15,4 +15,22 @@ Welcome to my **Personal Developer Portfolio** built using **Next.js**, **TypeSc
 ---
 
 ## 📁 Project Structure
+    ├── app/ # App directory for Next.js routing
+    ├── components/ # Reusable UI components
+    ├── hooks/ # Custom React hooks
+    ├── lib/ # Utility functions or API logic
+    ├── public/ # Static assets (images, favicons, etc.)
+    ├── styles/ # Global styles (Tailwind + custom CSS)
+    ├── .gitignore
+    ├── components.json
+    ├── next-env.d.ts
+    ├── next.config.mjs # Next.js configuration
+    ├── package.json # NPM package configuration
+    ├── pnpm-lock.yaml # PNPM lock file (if PNPM used)
+    ├── postcss.config.mjs # PostCSS config
+    ├── tailwind.config.js # Tailwind CSS config
+    ├── tsconfig.json # TypeScript config
+
+
+
 
