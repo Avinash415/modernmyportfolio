@@ -48,9 +48,14 @@ Welcome to my **Personal Developer Portfolio** built using **Next.js**, **TypeSc
 
 ### 1. Clone the repository
 
-```bash
-git clone https://github.com/your-username/your-portfolio.git
-cd your-portfolio
+#### bash
+    git clone https://github.com/your-username/your-portfolio.git
+    cd your-portfolio
+
+---
+### 2. Install dependencies
+
+        npm install
 
 
 
