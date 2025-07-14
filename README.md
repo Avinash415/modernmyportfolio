@@ -57,5 +57,21 @@ Welcome to my **Personal Developer Portfolio** built using **Next.js**, **TypeSc
 
         npm install
 
+### 3. Start the development server
 
+        npm run dev
+        
+#### Then visit http://localhost:3000 in your browser.
 
+### 📦 Build for Production
+
+       npm run build
+
+## 🌐 Deployment
+
+ - You can deploy the app easily using Vercel:
+ - Push the code to a GitHub/GitLab/Bitbucket repo
+ - Import the project in Vercel
+ - Configure environment variables (if any)
+
+Deploy 🚀
