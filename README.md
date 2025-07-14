@@ -30,7 +30,27 @@ Welcome to my **Personal Developer Portfolio** built using **Next.js**, **TypeSc
     ├── postcss.config.mjs # PostCSS config
     ├── tailwind.config.js # Tailwind CSS config
     ├── tsconfig.json # TypeScript config
+    
+---
+## ✨ Features
 
+- ⚡ Fast and optimized with Next.js app router
+- 📱 Fully responsive layout for all devices
+- 🎨 Custom components and styling using Tailwind CSS
+- 🧠 Organized folder structure with modular code
+- 🌐 SEO-friendly metadata and social previews
+- 💼 Sections: Hero, About, Skills, Projects, Experience, Contact
+- 🌙 Dark mode support (optional)
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-portfolio.git
+cd your-portfolio
 
 
 
