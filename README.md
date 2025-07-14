@@ -75,3 +75,18 @@ Welcome to my **Personal Developer Portfolio** built using **Next.js**, **TypeSc
  - Configure environment variables (if any)
 
 Deploy 🚀
+
+## 📸 Preview
+Add a few screenshots or a live demo link here (e.g., hosted on Vercel).
+
+## 📝 License
+This project is licensed under the MIT License.
+
+## 🙋‍♂️ Author
+Avinash Kumar
+🌐 Portfolio
+🐱 GitHub
+💼 LinkedIn
+✉️ Email
+
+
