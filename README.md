@@ -77,16 +77,23 @@ Welcome to my **Personal Developer Portfolio** built using **Next.js**, **TypeSc
 Deploy 🚀
 
 ## 📸 Preview
-Add a few screenshots or a live demo link here (e.g., hosted on Vercel).
+
+  Add a few screenshots or a live demo link here (e.g., hosted on Vercel).
 
 ## 📝 License
-This project is licensed under the MIT License.
+
+  This project is licensed under the MIT License.
 
 ## 🙋‍♂️ Author
-Avinash Kumar
-🌐 Portfolio
-🐱 GitHub
-💼 LinkedIn
-✉️ Email
 
+ Avinash Kumar
+       🌐 Portfolio
+       🐱 GitHub
+       💼 LinkedIn
+       ✉️ Email
+
+## ⭐️ Feedback
+
+ If you like this project or have suggestions, feel free to ⭐️ the repo or raise an issue!
+ 
 
