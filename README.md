@@ -1,6 +1,6 @@
 # 👨‍💻 Personal Portfolio Website
 
-Welcome to my **Personal Developer Portfolio** built using **Next.js**, **TypeScript**, and **Tailwind CSS**. This website showcases my projects, technical skills, experience, and achievements as a software engineer. It's fully responsive, fast, and optimized for modern browsers.
+Welcome to my **Personal Developer Portfolio Website** built using **Next.js**, **TypeScript**, and **Tailwind CSS**. This website showcases my projects, technical skills, experience, and achievements as a software engineer. It's fully responsive, fast, and optimized for modern browsers.
 
 ---
 
